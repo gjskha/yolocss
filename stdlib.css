@@ -1,7 +1,7 @@
-/* Mostly taken from:
- Skeleton V2.0.4i Copyright 2014, Dave Gamache www.getskeleton.com
+/* Mostly taken from: Skeleton V2.0.4i Copyright 2014, Dave Gamache www.getskeleton.com */
 
 
+/*
 Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
@@ -73,36 +73,36 @@ Table of contents
   .one-half.column                { width: 48%; }
 
   /* Offsets */
-  .offset-by-one.column,
-  .offset-by-one.columns          { margin-left: 8.66666666667%; }
-  .offset-by-two.column,
-  .offset-by-two.columns          { margin-left: 17.3333333333%; }
-  .offset-by-three.column,
-  .offset-by-three.columns        { margin-left: 26%;            }
-  .offset-by-four.column,
-  .offset-by-four.columns         { margin-left: 34.6666666667%; }
-  .offset-by-five.column,
-  .offset-by-five.columns         { margin-left: 43.3333333333%; }
-  .offset-by-six.column,
-  .offset-by-six.columns          { margin-left: 52%;            }
-  .offset-by-seven.column,
-  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
-  .offset-by-eight.column,
-  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
-  .offset-by-nine.column,
-  .offset-by-nine.columns         { margin-left: 78.0%;          }
-  .offset-by-ten.column,
-  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
-  .offset-by-eleven.column,
-  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+  .offset_by_one.column,
+  .offset_by_one.columns          { margin-left: 8.66666666667%; }
+  .offset_by_two.column,
+  .offset_by_two.columns          { margin-left: 17.3333333333%; }
+  .offset_by_three.column,
+  .offset_by_three.columns        { margin-left: 26%;            }
+  .offset_by_four.column,
+  .offset_by_four.columns         { margin-left: 34.6666666667%; }
+  .offset_by_five.column,
+  .offset_by_five.columns         { margin-left: 43.3333333333%; }
+  .offset_by_six.column,
+  .offset_by_six.columns          { margin-left: 52%;            }
+  .offset_by_seven.column,
+  .offset_by_seven.columns        { margin-left: 60.6666666667%; }
+  .offset_by_eight.column,
+  .offset_by_eight.columns        { margin-left: 69.3333333333%; }
+  .offset_by_nine.column,
+  .offset_by_nine.columns         { margin-left: 78.0%;          }
+  .offset_by_ten.column,
+  .offset_by_ten.columns          { margin-left: 86.6666666667%; }
+  .offset_by_eleven.column,
+  .offset_by_eleven.columns       { margin-left: 95.3333333333%; }
 
-  .offset-by-one-third.column,
-  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
-  .offset-by-two-thirds.column,
-  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+  .offset_by_one_third.column,
+  .offset_by_one_third.columns    { margin-left: 34.6666666667%; }
+  .offset_by_two_thirds.column,
+  .offset_by_two_thirds.columns   { margin-left: 69.3333333333%; }
 
-  .offset-by-one-half.column,
-  .offset-by-one-half.columns     { margin-left: 52%; }
+  .offset_by_one_half.column,
+  .offset_by_one_half.columns     { margin-left: 52%; }
 
 }
 
@@ -409,3 +409,4 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
