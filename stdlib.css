@@ -67,10 +67,10 @@ Table of contents
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
 
-  .one-third.column               { width: 30.6666666667%; }
-  .two-thirds.column              { width: 65.3333333333%; }
+  .one_third.column               { width: 30.6666666667%; }
+  .two_thirds.column              { width: 65.3333333333%; }
 
-  .one-half.column                { width: 48%; }
+  .one_half.column                { width: 48%; }
 
   /* Offsets */
   .offset_by_one.column,
@@ -118,8 +118,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+}
 
 
 /* Typography
@@ -193,24 +192,24 @@ input[type="button"]:focus {
   color: #333;
   border-color: #888;
   outline: 0; }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
+.button.button_primary,
+button.button_primary,
+input[type="submit"].button_primary,
+input[type="reset"].button_primary,
+input[type="button"].button_primary {
   color: #FFF;
   background-color: #33C3F0;
   border-color: #33C3F0; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
+.button.button_primary:hover,
+button.button_primary:hover,
+input[type="submit"].button_primary:hover,
+input[type="reset"].button_primary:hover,
+input[type="button"].button_primary:hover,
+.button.button_primary:focus,
+button.button_primary:focus,
+input[type="submit"].button_primary:focus,
+input[type="reset"].button_primary:focus,
+input[type="button"].button_primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
@@ -352,15 +351,15 @@ form {
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-full-width {
+.u_full_width {
   width: 100%;
   box-sizing: border-box; }
-.u-max-full-width {
+.u_max_full_width {
   max-width: 100%;
   box-sizing: border-box; }
-.u-pull-right {
+.u_pull_right {
   float: right; }
-.u-pull-left {
+.u_pull_left {
   float: left; }
 
 
