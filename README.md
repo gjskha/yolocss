@@ -1,1 +1,3 @@
 # yolocss
+
+Life is short
