@@ -167,18 +167,18 @@
          margin-left: 95.34%; 
     }
     
-    .offset_by_one-third.column,
-    .offset_by_one-third.columns {
+    .offset_by_one_third.column,
+    .offset_by_one_third.columns {
          margin-left: 34.67%; 
     }
 
-    .offset_by_two-thirds.column,
-    .offset_by_two-thirds.columns {
+    .offset_by_two_thirds.column,
+    .offset_by_two_thirds.columns {
          margin-left: 69.34%; 
     }
     
-    .offset_by_one-half.column,
-    .offset_by_one-half.columns {
+    .offset_by_one_half.column,
+    .offset_by_one_half.columns {
          margin-left: 52%; 
     }
     
@@ -201,6 +201,17 @@ body {
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a:active {
+
+}
+
+a:hover {
+
+}
+
+a:visited {
+
+}
 
 /**** Typography ****/
 
@@ -281,14 +292,20 @@ p {
 
 /**** Links ****/
 
-a { 
+a:link { 
+    color: green;
 }
  
+a:visited {
+    color: red;
+} 
+
 a:hover {
 }
 
-a:visited {
-} 
+a:active {
+    color: hotpink;
+}
 
 /**** Buttons ****/
 
